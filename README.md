@@ -1,2 +1,3 @@
-# hello-world-master
-Java
+# maven-project
+
+Simple Maven Project
