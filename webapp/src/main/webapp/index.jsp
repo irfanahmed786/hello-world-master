@@ -6,8 +6,3 @@
 <h2> Build & Deploy : Test 4 </h2>
 <h2> Build & Deploy : Test 5 </h2>
 <h2> Build & Deploy : Test 6 </h2>
-<h2> Build & Deploy : Test 7 </h2>
-<h2> Build & Deploy : Test 8 </h2>
-<h2> Build & Deploy : Test 9 </h2>
-<h2> Build & Deploy : Test 10 </h2>
-<h2> Build & Deploy : Test 11 </h2>
