@@ -1,6 +1,6 @@
 node {
     stage('clone git project') {
-        git 'https://github.com/irfanahmed786/hello-world-master.git'
+        git branch: 'qas', url: 'https://github.com/irfanahmed786/hello-world-master.git'
     }
     stage('build maven project'){
         def mvnHOME = tool name: 'Maven', type: 'maven'
