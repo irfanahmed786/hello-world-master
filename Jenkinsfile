@@ -9,7 +9,7 @@ node {
     }
     stage('copy artifacts'){
         sshagent(['dockeradmin']) {
-            sh "scp -p /var/lib/jenkins/workspace/hello-world-project_dev/webapp/target/webapp.war dockeradmin@192.168.56.125:/opt/docker_project/docker-images/hello-world/prod/"
+            sh "scp -p /var/lib/jenkins/workspace/hello-world-project_master/webapp/target/webapp.war dockeradmin@192.168.56.125:/opt/docker_project/docker-images/hello-world/prod/"
         }
     }
     stage('deploy hello world through ansible'){
