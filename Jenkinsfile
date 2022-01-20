@@ -14,7 +14,7 @@ node {
     }
     stage('deploy hello world through ansible'){
         sshagent(['ansiadmin']) {
-            def runHelloWorld = 'ansible-playbook /opt/ansiadm/projects/k8s/hello-world.yml'
+            def runHelloWorld = 'ansible-playbook /opt/ansiadm/projects/k8s/dev-hello-world.yml'
             sh "ssh -o StrictHostKeyChecking=no -l ansiadmin 192.168.56.125 ${runHelloWorld}"
         }
     }
